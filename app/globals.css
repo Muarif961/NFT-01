@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hovo {
+  /* Original text color */
+ 
+    /* Outline color */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #6AD4DA;
+    
+    /* Text color (transparent) */
+    color: transparent;
+    
+    /* Other styles */
+    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+  
+}
+.noya{
+
+}
+.ph{
+  font-size: 46px;
+ 
+}
+.ph2{
+  font-size: 15px;
+}
+
+@media screen and (max-width:514px){
+.ph{
+  font-size: 32px;
+
+}  
+.ph2{
+  font-size: 12px;
+}
+
+}
+@media screen and (max-width:490px){
+  .ph{
+    font-size: 28px;
+  
+  }  
+  .ph2{
+    font-size: 10px;
+  
+
+  }
+  }
+  @media screen and (max-width:326px){
+    .ph2{
+      font-size: 8px;
+    }
+
+   
+    
+    }
+  
