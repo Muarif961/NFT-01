@@ -1,6 +1,5 @@
 import React from 'react'
-import Background from "../../../../public/a5.png"
-import bg from "../../../../public/Vector.png"
+
 import Image from 'next/image'
 
 const Header = () => {
@@ -21,10 +20,10 @@ const Header = () => {
             </p>
             <div className='w-8/12 mx-auto sm:w-8/12 sm:mx-auto md:w-8/12 md:mx-auto lg:w-full xl:w-full 2xl:w-full mt-10 flex justify-between'>
               <button >
-              <Image src={"https://res.cloudinary.com/dyxix0sib/image/upload/v1718088669/Group_1_tahxut.png"} height={500} width={500} alt=''/>
+              <Image src={"https://res.cloudinary.com/dyxix0sib/image/upload/v1718088669/Group_1_tahxut.png"} height={600} width={600} alt=''/>
               </button>
               <button >
-              <Image src={"https://res.cloudinary.com/dyxix0sib/image/upload/v1718088677/Group_nloygv.png"} height={500} width={500} alt=''/>
+              <Image src={"https://res.cloudinary.com/dyxix0sib/image/upload/v1718088677/Group_nloygv.png"} height={600} width={600} alt=''/>
            
               </button>
             </div>

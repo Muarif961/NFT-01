@@ -16,7 +16,7 @@ const Nav = () => {
 
   return (
     <nav style={{backgroundColor:"black",borderBottom:"5px solid #29838B"}} className="border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 w-11/12">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-6 w-11/12">
         <a style={{width:"56px",height:"56px",flexShrink:"0"}} href="/" className="">
           <Image src={Logo} className="" height={100} width={100} alt="Flowbite Logo" />
         </a>
@@ -36,7 +36,7 @@ const Nav = () => {
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
           </svg>
         </button>
-        <div className={`w-full md:flex md:w-auto justify-center ${isMenuOpen ? '' : 'hidden'}`} id="navbar-menu">
+        <div className={`w-full md:flex md:w-auto justify-center ms-16 ${isMenuOpen ? '' : 'hidden'}`} id="navbar-menu">
           <ul className="flex flex-col ms-10 font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li style={{fontSize:"12px"}} className=''>
               <a href="#" className="block py-2 px-3 text-white  rounded md:bg-transparent  md:p-0  md:dark:bg-transparent" aria-current="page">STAKING</a>
@@ -44,7 +44,7 @@ const Nav = () => {
             <li style={{fontSize:"12px"}} className="relative">
               <button
                 onClick={toggleDropdown}
-                className="flex items-center justify-between w-full py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                className="flex items-center justify-between w-full py-2 px-3 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                 aria-expanded={isDropdownOpen}
               >
                 ABOUT
@@ -62,7 +62,7 @@ const Nav = () => {
               <div
                 className={`${
                   isDropdownOpen ? 'block' : 'hidden'
-                } absolute z-10 font-normal bg-gray-600 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+                } absolute z-10 font-normal bg-gray-800 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
               >
                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                   <li>

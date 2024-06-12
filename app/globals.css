@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: black;
+}
 .hovo {
   /* Original text color */
  
@@ -20,24 +23,67 @@
   
   
 }
-.noya{
 
-}
 .ph{
   font-size: 46px;
  
 }
+.ph3{
+  font-size: 46px;
+
+}
 .ph2{
   font-size: 15px;
 }
+.cardo{
+  height: 400px;
+width: 22%
+}
+.hp{
+  font-size: 10px;
+}
+@media screen and (max-width:1025px){
+  .hp{
+    font-size: 10px;
+  }
+  .ph2{
+    font-size: 12px;
+  }
+  
+  }
+@media screen and (max-width:769px){
+  .cardo{
+    width: 48%;
+  }
+  .hp{
+    font-size: 13px;
+  }
+  .ph3{
+    font-size: 32px;
+  }
+  
+  
+  }
 
 @media screen and (max-width:514px){
 .ph{
   font-size: 32px;
 
 }  
+.hp{
+  font-size: 10px;
+}
 .ph2{
   font-size: 12px;
+}
+.cardo{
+  width: 80%;
+  margin-left: 40px;
+}
+.ph3{
+  font-size: 20px;
+  text-align: center;
+
 }
 
 }
@@ -51,12 +97,33 @@
   
 
   }
+  .hp{
+    font-size: 11px;
   }
-  @media screen and (max-width:326px){
+  .ph3{
+    text-align: center;
+  }
+  }
+  @media screen and (max-width:376px){
+  .ph3{
+    margin-left: -10px;
+
+  }
+   
+   
+    
+    }
+  @media screen and (max-width:321px){
     .ph2{
       font-size: 8px;
     }
-
+    .hp{
+      font-size: 9px;
+    }
+    .ph3{
+      margin-left: -20px;
+    }
+   
    
     
     }
